@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300" fill="none">
+  <!-- 背景 -->
+  <rect width="500" height="300" fill="#121212"/>
+  
+  <!-- 科技线条 -->
+  <path d="M50 50L450 50" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M50 100L450 100" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M50 150L450 150" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M50 200L450 200" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M50 250L450 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <path d="M50 50L50 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M150 50L150 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M250 50L250 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M350 50L350 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  <path d="M450 50L450 250" stroke="#00d4ff" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 中央圆形 -->
+  <circle cx="250" cy="150" r="80" fill="url(#circle-gradient)" opacity="0.8"/>
+  
+  <!-- 中心图标 -->
+  <path d="M230 130L270 130L270 170L230 170L230 130Z" fill="#ffffff"/>
+  <path d="M250 110L250 190" stroke="#ffffff" stroke-width="4"/>
+  <path d="M210 150L290 150" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- 发光效果 -->
+  <circle cx="250" cy="150" r="100" fill="none" stroke="#00d4ff" stroke-width="2" filter="blur(10px)" opacity="0.5"/>
+  <circle cx="250" cy="150" r="120" fill="none" stroke="#0099cc" stroke-width="1" filter="blur(15px)" opacity="0.3"/>
+  
+  <!-- 装饰点 -->
+  <circle cx="100" cy="100" r="3" fill="#00d4ff"/>
+  <circle cx="400" cy="100" r="3" fill="#00d4ff"/>
+  <circle cx="100" cy="200" r="3" fill="#00d4ff"/>
+  <circle cx="400" cy="200" r="3" fill="#00d4ff"/>
+  <circle cx="150" cy="150" r="3" fill="#00d4ff"/>
+  <circle cx="350" cy="150" r="3" fill="#00d4ff"/>
+  
+  <defs>
+    <linearGradient id="circle-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0099cc"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "tech-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "npx vitepress dev",
+    "docs:build": "npx vitepress build",
+    "docs:preview": "npx vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

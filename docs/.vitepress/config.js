@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '墨宇的科技博客',
   description: '分享计算机科学与技术相关的知识和经验',
-  base: '/blog-comments/',
+  base: '/blog-comments/',  // 部署到 GitHub Pages 时使用
   themeConfig: {
     logo: '/logo.svg',
     nav: [
